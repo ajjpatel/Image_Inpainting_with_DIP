@@ -9,7 +9,7 @@ This project implements an image inpainting system using a Context Encoder archi
 #### Context Encoder Components
 - **`model.py`** - Contains the Context Encoder model architecture, a generative adversarial network (GAN) designed for image inpainting tasks
 - **`train.py`** - Training script for the Context Encoder model with configurable parameters for datasets, epochs, and training settings
-- **`G_best.pth`** - Pre-trained Context Encoder model checkpoint (generator component of the GAN)
+- **`G_best.pth`** - Pre-trained Context Encoder model checkpoint (generator component of the GAN) - https://drive.google.com/drive/folders/1ToGg2ZfoN1yTeY8obiiPVfZzBz2ik115?usp=sharing
 
 #### Image Processing Pipeline
 - **`denoise.py`** - Implements denoising algorithms including:
@@ -32,7 +32,7 @@ This project implements an image inpainting system using a Context Encoder archi
   - **NIQE** (Natural Image Quality Evaluator) - assesses perceptual image quality
 
 ### Data Directory
-- **`Data/`** - Contains compressed dataset archives:
+- **`Data/`** - Contains compressed dataset archives: - https://drive.google.com/drive/folders/1ToGg2ZfoN1yTeY8obiiPVfZzBz2ik115?usp=sharing
   - `train.tar.gz` - Training dataset
   - `test.tar.gz` - Testing dataset
 
